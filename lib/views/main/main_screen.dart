@@ -4,7 +4,6 @@ import '../../core/utils/app_style.dart';
 import 'account_screen.dart';
 import 'my_policies.dart';
 import 'products.dart';
-import 'test.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -29,7 +28,7 @@ class _MainScreenState extends State<MainScreen> {
     ),
   ];
   final List<Widget> screens = [
-    const MyHomePage(),
+    const Products(),
     const MyPoliciesScreen(),
     const AccountScreen()
   ];
